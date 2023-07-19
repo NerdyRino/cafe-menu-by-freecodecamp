@@ -1,0 +1,35 @@
+body {background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);font-family:sans-serif;}
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+#establishment {
+    font-style: italic;
+}
+
+/*now what even is this shit*/
+.item p {
+    display: inline-block; /*ok this is normal*/
+}
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%; /*WHYYYY??????*/
+}
+
+.price {
+    text-align: right;
+    width: 25%; /*I HATE CSS SO MUCHHHHHHHHHHHHHHHHHH*/
+}
+h1, h2 {
+    font-family: impact;
+}
